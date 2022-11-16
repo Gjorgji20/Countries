@@ -1,0 +1,107 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: beige;
+}
+/* header{
+    max-width: 100%;
+    background-color: wheat;
+} */
+ .flex-header
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  
+}
+.fh1
+{
+    width: 60%;
+}
+.fh2
+{
+    width: 40%;
+}
+.fh1 h1{
+    
+    text-align: left;
+}
+.fh2 a{
+    display: block;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flex-form
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    
+}
+.flex-form>div{
+    height: 70px;
+}
+.item1
+{
+    width: 90%;
+}
+.item2
+{
+    width: 10%;
+    text-align: right;
+}
+.item1 input
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    text-indent: 20px;
+    padding: 5px;
+}
+.item2 select
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;   
+    display: block;
+}
+.flex-countries
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    
+    flex-wrap: wrap;
+}
+.flex-countries>div
+{
+    padding-top: 200px;  
+    width: 300px;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+.details
+{
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+   
+} 
